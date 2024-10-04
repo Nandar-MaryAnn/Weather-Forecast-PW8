@@ -2,6 +2,9 @@ body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
 }
+a {
+  color: #885df1;
+}
 .weather-app {
   background: white;
   max-width: 600px;
@@ -59,7 +62,6 @@ main {
 .weather-app-icon {
   width: 88px;
   height: 88px;
-  margin-top: 22px;
 }
 .weather-app-temperature {
   font-size: 88px;
@@ -85,8 +87,10 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
